@@ -10,8 +10,7 @@
 }
 
 body {
-  background: #504643;
-  text-align: center;
+  
   margin: 0;
   padding: 40px;
 }
@@ -56,9 +55,17 @@ em {
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
 
+body {
+  background: url(../challenge2/wood.jpg) #504643 left top repeat;
+  text-align: center;
+}
 ul{
   list-style: none;
-  bottom: 0;
-  display: inline-flex;
+  padding-left: 0;
+  display: flex ;
+  justify-content:  space-around;
 }
-li{flex: 1 1 20%;}
+li {
+  flex: 1 1 20% ;
+  
+}
